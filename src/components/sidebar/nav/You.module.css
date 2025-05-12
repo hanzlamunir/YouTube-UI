@@ -1,0 +1,33 @@
+.container {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 12px;
+  padding-top: 12px;
+  width: 216px;
+  height: 253px;
+  font: 10px Roboto, Arial, sans-serif;
+}
+
+.name {
+  background: transparent;
+  color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  width: 35.25px;
+  width: 27.25px;
+  height: 22px;
+  margin: 0;
+  padding-right: 8px;
+  font: 16px Roboto, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.icon {
+  background: transparent;
+  color: #f1f1f1;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}

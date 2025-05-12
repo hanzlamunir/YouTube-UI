@@ -1,0 +1,79 @@
+.header {
+  background-color: #0f0f0f;
+  font: 10px Roboto, Arial, sans-serif;
+  padding: 0px 16px;
+  margin: 0px;
+  height: 56px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 3000;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 169px;
+  height: 56px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.hamburgerButton {
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  padding: 8px;
+}
+
+.hamburgerIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20px;
+  height: 15px;
+}
+
+.hamburgerIcon div {
+  background-color: white;
+  height: 1px;
+  width: 100%;
+}
+
+.logo {
+  width: 123px;
+  padding: 18px 14px 18px 16px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  align-items: center;
+}
+
+.logoImage {
+  width: 93px;
+  height: 20px;
+}
+
+.logoTopbar {
+  color: #aaa;
+  width: 12.9px;
+  margin-top: -6px;
+  margin-bottom: 12px;
+  margin-left: 2px;
+}

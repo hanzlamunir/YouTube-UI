@@ -1,0 +1,169 @@
+.container {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 214px;
+  width: 100%;
+  height: 40px;
+  padding: 0 0px 0 10px;
+}
+
+.notification {
+  background: none;
+  color: inherit;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.notificationIcon {
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+
+.avatar {
+  background: transparent;
+  width: 48px;
+  height: 34px;
+  padding: 1px 6px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  position: relative;
+}
+
+.avatarIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #272727;
+  border-radius: 10px;
+  width: 200px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.infoContainer {
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 16px;
+}
+
+.info {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font: 16px Roboto, Arial, sans-serif;
+}
+
+.dropdownItem {
+  font: 14px Roboto, Arial, sans-serif;
+  background-color: #272727;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 20px 16px 20px;
+  border-top: 0.1px solid #aaa;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  gap: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signin {
+  background: transparent;
+  width: 146px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu {
+  background: transparent;
+  /* width: 40px; */
+  width: 24.1px;
+  /* height: 40px; */
+  height: 24.1px;
+  padding: 8px;
+}
+
+.menuIcon {
+  background: transparent;
+  width: 24px;
+  height: 24px;
+}
+
+.signinBtn {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  /* width: 97.17px; */
+  width: 95px;
+  /* height: 36px; */
+  height: 34px;
+  border-radius: 50px;
+  border: 0.1px solid #aaa;
+  cursor: pointer;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.icon {
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+.name {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}

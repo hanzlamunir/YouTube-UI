@@ -1,0 +1,51 @@
+.navContainer {
+  background: transparent;
+  width: 216px;
+  height: 425px;
+}
+
+/* isShrinkNav */
+.navbarBtn {
+  background: transparent;
+  color: #f1f1f1;
+  width: 64px;
+  /* height: 74px; */
+  height: 44px;
+  padding: 16px 0 14px;
+  outline: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.navbarIcon {
+  background: transparent;
+  width: 24px;
+  height: 24px;
+}
+
+.fillIcon {
+  background-color: white;
+}
+
+.navbarName {
+  font: 10px Roboto, Arial, sans-serif;
+  background: transparent;
+  color: #f1f1f1;
+  height: 14px;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  text-decoration: none;
+}

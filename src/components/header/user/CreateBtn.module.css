@@ -1,0 +1,40 @@
+.create {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+
+.createBtn {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  /* width: 97.17px; */
+  width: 95px;
+  /* height: 36px; */
+  height: 34px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.icon {
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+.name {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}

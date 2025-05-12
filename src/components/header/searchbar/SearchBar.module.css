@@ -1,0 +1,78 @@
+.container {
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 60%;
+  max-width: 732px;
+}
+
+.search {
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  max-width: 640px;
+  height: 40px;
+  margin: 0px 10px 0px 40px;
+  padding: 0 4px;
+}
+
+.searchBar {
+  background-color: #0f0f0f;
+  border: 1px solid hsl(0, 0%, 18.82%);
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  max-width: 536px;
+  height: 40px;
+  border-right: 0;
+  border-radius: 40px 0 0 40px;
+  padding: 0 4px 0 16px;
+  cursor: text;
+  box-shadow: none;
+}
+
+.searchButton {
+  background-color: hsla(0, 0%, 100%, 0.08);
+  border: 1px solid hsl(0, 0%, 18.82%);
+  width: 64px;
+  height: 42px;
+  border-radius: 0 40px 40px 0;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+}
+
+.searchIcon {
+  background: transparent;
+  width: 24px;
+  height: 24px;
+}
+
+.mic {
+  width: 40px;
+  height: 42px;
+  border: none;
+  border-radius: 40px 40px 40px 40px;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+}
+
+.microphoneIcon {
+  background: transparent;
+  width: 24px;
+  height: 24px;
+}
