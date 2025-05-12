@@ -10,11 +10,7 @@ function SearchBar() {
           className={`${Styles.searchButton} popup`}
           data-tooltip="Search"
         >
-          <img
-            src="/public/search.png"
-            alt="search"
-            className={Styles.searchIcon}
-          />
+          <img src="./search.png" alt="search" className={Styles.searchIcon} />
         </button>
       </div>
 
@@ -25,7 +21,7 @@ function SearchBar() {
           data-tooltip="Search with your voice"
         >
           <img
-            src="/public/microphone.png"
+            src="./microphone.png"
             alt="microphone"
             className={Styles.microphoneIcon}
           />

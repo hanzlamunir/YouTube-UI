@@ -33,7 +33,7 @@ function Header({ setIsExpandNav }) {
             data-tooltip="YouTube Home"
           >
             <img
-              src="/public/yt_logo_rgb_dark.png"
+              src="./yt_logo_rgb_dark.png"
               alt="Logo"
               className={Styles.logoImage}
             />

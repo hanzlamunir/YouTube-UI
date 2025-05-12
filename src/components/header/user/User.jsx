@@ -28,7 +28,7 @@ function User() {
             data-tooltip="Notifications"
           >
             <img
-              src="/public/notification-icon.png"
+              src="./notification-icon.png"
               alt="Notification"
               className={Styles.notificationIcon}
             />
@@ -58,7 +58,7 @@ function User() {
                 onClick={handleLogout}
               >
                 <img
-                  src="/public/sign-out.png"
+                  src="./sign-out.png"
                   alt="signout"
                   className={Styles.signoutIcon}
                 />
@@ -71,7 +71,7 @@ function User() {
         <div className={Styles.signin}>
           <div className={`${Styles.menu} popup`} data-tooltip="Settings">
             <img
-              src="/public/menu-vertical-icon.png"
+              src="./menu-vertical-icon.png"
               alt="menu"
               className={Styles.menuIcon}
             />
@@ -79,7 +79,7 @@ function User() {
           <div className={Styles.signinBtn}>
             <NavLink to="/login" className={`${Styles.btn} btnHover`}>
               <img
-                src="/public/account-icon.png"
+                src="./account-icon.png"
                 alt="plus"
                 className={Styles.icon}
               />

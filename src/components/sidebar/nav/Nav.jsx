@@ -5,31 +5,31 @@ import Styles from "./Nav.module.css";
 const navItems = [
   {
     id: 1,
-    image: "/public//home-icon.png",
+    image: "./home-icon.png",
     name: "Home",
     href: "/",
   },
   {
     id: 2,
-    image: "/public//youtube-shorts-icon.png",
+    image: "./youtube-shorts-icon.png",
     name: "Shorts",
     href: "",
   },
   {
     id: 3,
-    image: "/public//youtube-subscription-icon.png",
+    image: "./youtube-subscription-icon.png",
     name: "Subscriptions",
     href: "",
   },
   {
     id: 4,
-    image: "/public//youtube-music-icon.png",
+    image: "./youtube-music-icon.png",
     name: "YouTube Music",
     href: "",
   },
   {
     id: 5,
-    image: "/public//subsciption-account-icon.png",
+    image: "./subsciption-account-icon.png",
     name: "You",
   },
 ];
