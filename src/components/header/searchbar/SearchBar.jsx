@@ -11,7 +11,7 @@ function SearchBar() {
           data-tooltip="Search"
         >
           <img
-            src="/src/assets/search.png"
+            src="/public/search.png"
             alt="search"
             className={Styles.searchIcon}
           />
@@ -25,7 +25,7 @@ function SearchBar() {
           data-tooltip="Search with your voice"
         >
           <img
-            src="/src/assets/microphone.png"
+            src="/public/microphone.png"
             alt="microphone"
             className={Styles.microphoneIcon}
           />

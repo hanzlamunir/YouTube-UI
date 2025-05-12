@@ -7,9 +7,9 @@ const videoThumbnail = [
   {
     id: 70,
     herf: "",
-    image: "/src/assets/video-image/image1.jpg",
-    icon: "/src/assets/subsciption-account-icon.png",
-    meuIcon: "/src/assets/menu-vertical-icon.png",
+    image: "/public/video-image/image1.jpg",
+    icon: "/public/subsciption-account-icon.png",
+    meuIcon: "/public/menu-vertical-icon.png",
     heading: "Top Cars in Pakistan? Vehicles In Veranda Showroom Tour",
     channel: "PakWeels.com",
     views: "264K views",
@@ -18,22 +18,22 @@ const videoThumbnail = [
   {
     id: 71,
     herf: "",
-    image: "/src/assets/video-image/image2.jpg",
-    icon: "/src/assets/subsciption-account-icon.png",
-    meuIcon: "/src/assets/menu-vertical-icon.png",
+    image: "/public/video-image/image2.jpg",
+    icon: "/public/subsciption-account-icon.png",
+    meuIcon: "/public/menu-vertical-icon.png",
     heading:
       "🔴 ARY NEWS LIVE | Latest Pakistan News 𝟐𝟒/𝟕 | Headlines, Bulletins, Breaking News",
     channel: "ARY News",
     views: "41K watching",
     live: true,
-    liveIcon: "/src/assets/youtube-live-icon.png",
+    liveIcon: "/public/youtube-live-icon.png",
   },
   {
     id: 74,
     herf: "",
-    image: "/src/assets/video-image/image5.jpg",
-    icon: "/src/assets/subsciption-account-icon.png",
-    meuIcon: "/src/assets/menu-vertical-icon.png",
+    image: "/public/video-image/image5.jpg",
+    icon: "/public/subsciption-account-icon.png",
+    meuIcon: "/public/menu-vertical-icon.png",
     heading: "Koenigsegg Jesko Absolut v Regera: DRAG RACE",
     channel: "carwow",
     views: "2.5M views",
@@ -42,9 +42,9 @@ const videoThumbnail = [
   {
     id: 73,
     herf: "",
-    image: "/src/assets/video-image/image4.jpg",
-    icon: "/src/assets/subsciption-account-icon.png",
-    meuIcon: "/src/assets/menu-vertical-icon.png",
+    image: "/public/video-image/image4.jpg",
+    icon: "/public/subsciption-account-icon.png",
+    meuIcon: "/public/menu-vertical-icon.png",
     heading: "Doctors aur Patients",
     channel: "Sharum Ki Sketchbook",
     views: "3.2M views",
@@ -53,9 +53,9 @@ const videoThumbnail = [
   {
     id: 75,
     herf: "",
-    image: "/src/assets/video-image/image6.jpg",
-    icon: "/src/assets/subsciption-account-icon.png",
-    meuIcon: "/src/assets/menu-vertical-icon.png",
+    image: "/public/video-image/image6.jpg",
+    icon: "/public/subsciption-account-icon.png",
+    meuIcon: "/public/menu-vertical-icon.png",
     heading: "FIRST DRIVE: Lamborghini Temerario – 10,000rpm & 907bhp!",
     channel: "Top Gear",
     views: "479K views",
@@ -64,9 +64,9 @@ const videoThumbnail = [
   {
     id: 76,
     herf: "",
-    image: "/src/assets/video-image/image7.jpg",
-    icon: "/src/assets/subsciption-account-icon.png",
-    meuIcon: "/src/assets/menu-vertical-icon.png",
+    image: "/public/video-image/image7.jpg",
+    icon: "/public/subsciption-account-icon.png",
+    meuIcon: "/public/menu-vertical-icon.png",
     heading: "KIA Sorento 4th Gen 1.6 HEV AWD | First Look Review | PakWheels",
     channel: "PakWheels.com",
     views: "209K views",
@@ -75,9 +75,9 @@ const videoThumbnail = [
   {
     id: 72,
     herf: "",
-    image: "/src/assets/video-image/image3.jpg",
-    icon: "/src/assets/subsciption-account-icon.png",
-    meuIcon: "/src/assets/menu-vertical-icon.png",
+    image: "/public/video-image/image3.jpg",
+    icon: "/public/subsciption-account-icon.png",
+    meuIcon: "/public/menu-vertical-icon.png",
     heading:
       "PCB Archive - Spin Magic of Saeed Ajmal in Sharjah | 3rd ODI | PAK vs AUS 2012 Series | M6B2A",
     channel: "Pakistan Cricket",
@@ -87,9 +87,9 @@ const videoThumbnail = [
   {
     id: 77,
     herf: "",
-    image: "/src/assets/video-image/image8.jpg",
-    icon: "/src/assets/subsciption-account-icon.png",
-    meuIcon: "/src/assets/menu-vertical-icon.png",
+    image: "/public/video-image/image8.jpg",
+    icon: "/public/subsciption-account-icon.png",
+    meuIcon: "/public/menu-vertical-icon.png",
     heading: "Prestige Car Showroom Tour!",
     channel: "PakWheels.com",
     views: "248K views",
@@ -98,9 +98,9 @@ const videoThumbnail = [
   {
     id: 78,
     herf: "",
-    image: "/src/assets/video-image/image9.jpg",
-    icon: "/src/assets/subsciption-account-icon.png",
-    meuIcon: "/src/assets/menu-vertical-icon.png",
+    image: "/public/video-image/image9.jpg",
+    icon: "/public/subsciption-account-icon.png",
+    meuIcon: "/public/menu-vertical-icon.png",
     heading: "Built vs Bought - drag racing",
     channel: "Wheels",
     views: "586K views",
@@ -157,11 +157,7 @@ function Item({ item }) {
           <div className={Styles.con}>
             <span className={Styles.views}>{item.views}</span>
             {item.time && <div className={Styles.dot}></div>}
-            {/* <span className={Styles.dot}>{item.time && " . "}</span> */}
-            <span className={Styles.time}>
-              {/* {item.time && " . "} */}
-              {item.time}
-            </span>
+            <span className={Styles.time}>{item.time}</span>
           </div>
           {item.live && (
             <div className={Styles.live}>

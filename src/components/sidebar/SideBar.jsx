@@ -46,7 +46,7 @@ function SideBar({ isExpandNav }) {
                 <div className={Styles.signinBtn}>
                   <NavLink to="/login" className={`${Styles.btn} btnHover`}>
                     <img
-                      src="/src/assets/account-icon.png"
+                      src="/public/account-icon.png"
                       alt="plus"
                       className={Styles.icon}
                     />

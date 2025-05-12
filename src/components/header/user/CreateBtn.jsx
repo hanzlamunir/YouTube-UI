@@ -5,7 +5,7 @@ function CreateBtn() {
     <div className={Styles.create}>
       <a className={`${Styles.createBtn} btnActive`}>
         <img
-          src="/src/assets/create-plus.png"
+          src="/public/create-plus.png"
           alt="pluse"
           className={Styles.icon}
         />

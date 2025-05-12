@@ -7,7 +7,7 @@ import Main from "../components/main/Main";
 import Styles from "./Homepage.module.css";
 
 function Homepage() {
-  const [isExpandNav, setIsExpandNav] = useState(true);
+  const [isExpandNav, setIsExpandNav] = useState(false);
 
   return (
     <div>
