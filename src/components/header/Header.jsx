@@ -3,7 +3,7 @@ import User from "./user/User";
 
 import Styles from "./Header.module.css";
 
-function Header({ setIsExpandNav }) {
+function Header({ setIsExpandNav, search, setSearch }) {
   function handleNav() {
     setIsExpandNav((nav) => !nav);
   }
@@ -41,7 +41,7 @@ function Header({ setIsExpandNav }) {
           </a>
         </div>
       </div>
-      <SearchBar />
+      <SearchBar search={search} setSearch={setSearch} />
       <User />
     </div>
   );

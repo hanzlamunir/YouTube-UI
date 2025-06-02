@@ -1,58 +1,8 @@
-import { useState } from "react";
+import chips from "./chip";
 
 import Styles from "./ChipBar.module.css";
 
-const chips = [
-  {
-    id: 60,
-    name: "All",
-    herf: "",
-  },
-  {
-    id: 61,
-    name: "Live",
-    herf: "",
-  },
-  {
-    id: 62,
-    name: "News",
-    herf: "",
-  },
-  {
-    id: 63,
-    name: "Gaming",
-    herf: "",
-  },
-  {
-    id: 64,
-    name: "Music",
-    herf: "",
-  },
-  {
-    id: 65,
-    name: "Cars",
-    herf: "",
-  },
-  {
-    id: 66,
-    name: "Recently uploaded",
-    herf: "",
-  },
-  {
-    id: 67,
-    name: "New to You",
-    herf: "",
-  },
-  {
-    id: 68,
-    name: "Watched",
-    herf: "",
-  },
-];
-
-function ChipBar({ isExpandNav }) {
-  const [selectedChip, setSelectedChip] = useState(60);
-
+function ChipBar({ isExpandNav, selectedChip, setSelectedChip }) {
   return (
     <div className={isExpandNav ? Styles.chipbar : Styles.left}>
       <div className={Styles.container}>

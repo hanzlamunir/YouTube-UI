@@ -8,13 +8,18 @@ import Styles from "./Homepage.module.css";
 
 function Homepage() {
   const [isExpandNav, setIsExpandNav] = useState(false);
+  const [search, setSearch] = useState(""); // <-- Add search state
 
   return (
     <div>
-      <Header setIsExpandNav={setIsExpandNav} />
+      <Header
+        setIsExpandNav={setIsExpandNav}
+        search={search}
+        setSearch={setSearch}
+      />
       <div className={Styles.app}>
         <SideBar isExpandNav={isExpandNav} />
-        <Main isExpandNav={isExpandNav} />
+        <Main isExpandNav={isExpandNav} search={search} />
       </div>
     </div>
   );

@@ -70,9 +70,7 @@ function Item({ item, isExpandNav, isActive, setSelectedBtn }) {
     <a
       href={item.href}
       className={`${
-        isExpandNav
-          ? "btn btnHover popup"
-          : `${Styles.navbarBtn} btnHover popup`
+        isExpandNav ? "btn btnHover popup" : `${Styles.navbarBtn} btnHover popup`
       } ${isActive ? "btnActive" : ""}`}
       data-tooltip={item.name}
       onClick={handleClick}
