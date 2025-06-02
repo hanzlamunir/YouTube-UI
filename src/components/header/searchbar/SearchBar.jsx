@@ -8,6 +8,7 @@ function SearchBar({ search, setSearch }) {
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {
       setSearch(input);
+      setInput("");
     }
   };
 
@@ -15,6 +16,7 @@ function SearchBar({ search, setSearch }) {
   const handleSearch = (e) => {
     e.preventDefault();
     setSearch(input);
+    setInput("");
   };
 
   return (
